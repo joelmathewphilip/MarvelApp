@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        />
+
+    <Button
+        android:id="@+id/upload_video_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Upload Video"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/video_library_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload_video_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:text="Video Library"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
